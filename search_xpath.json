@@ -2,7 +2,7 @@
 "url":"https://www.google.com/search?q=%s&start=%d",
  "xpath":{
  "nodes":"//div[@id='main']//a",
-  "title":"//h3//@text",
+  "title":"//h3//text()",
   "url":"//@href"
  }
 }
